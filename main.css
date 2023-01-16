@@ -108,4 +108,16 @@ h2{
 .footer{
     bottom: 0;
 }
-
+.check{
+    position: absolute;
+    margin: 1rem;
+    background-color: var(--green);
+    color: var(--dark);
+    font-size: 1.25rem;
+    color: #222222;
+    border-radius: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
