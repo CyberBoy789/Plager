@@ -2,6 +2,7 @@
     --dark : #222222;
     --light : #FDFDFD;
     --blue : #C1E1FF;
+    --green : #6CFFB0;
 
     --inter : 'Inter', sans-serif;
     --source-sans : 'Source Sans Pro', sans-serif;
@@ -95,29 +96,53 @@ h2{
     left: calc(50% - 914.85px/2);
     /* left: calc(50% - 1253px/2 - 0.5px); */
     top: 100%;
-    bottom: 500px;
 }
+
+.upload-file{
+    position: absolute;
+    color: var(--dark);
+    height: 30px;
+    font-size: large;
+    top: 170%;
+    left: 40%;
+}
+
+#upload{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    font-size: large;
+}
+
+.submit{
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    font-size: large;
+    top: 180%;
+    left: 37%;
+}
+
+.check{
+    position: absolute;
+    background-color: var(--green);
+    color: var(--dark);
+    width: 300px;
+    height: 50px;
+    font-size: large;
+    border-radius: 1.5rem;
+}
+
+
 ::placeholder {
     position: absolute;
     align-content: center;
-    right: 50%;
-    top: 50%;
+    right: 45%;
+    top: 40%;
     font-size: x-large;
 }
 
 .footer{
     bottom: 0;
 }
-.check{
-    position: absolute;
-    margin: 1rem;
-    background-color: var(--green);
-    color: var(--dark);
-    font-size: 1.25rem;
-    color: #222222;
-    border-radius: 1.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
+
