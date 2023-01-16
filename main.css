@@ -142,6 +142,12 @@ h2{
    
 }
 
+progress::-webkit-progress-value,progress::-webkit-progress-value, progress {
+    background-color: #FF8A58;
+    border-radius: 1.5rem;
+
+}
+
 ::placeholder {
     position: absolute;
     align-content: center;
