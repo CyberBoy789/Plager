@@ -11,12 +11,13 @@
       rel="stylesheet"
       type="text/css"
     />
+    
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <header>
       <div>
-        <h1 class="text-5xl font-mono m-10 text-white">Plager.</h1>
+        <h1 class="text-5xl font-mono m-10">Plager.</h1>
       </div>
       <div class="absolute top-0 right-0 m-10">
         <button class="btn w-32 m-2 btn-accent rounded-full">Sign up</button>
@@ -37,25 +38,25 @@
       </div>  
     </section>
     <section>
-        <div class="absolute px-36 top-3/4">
-            <div class="text-input">
+        <div class="absolute w-full top-3/4">
+            <div class="text-input w-3/4 mx-36 my-1/6">
                 <textarea class="textarea h-96 w-full bg-slate-50 text-black textarea-bordered" placeholder="Paste Text Here"></textarea>
             </div>
             <br/>
-            <div class="">
+            <div class="mx-[450px] my-1/6">
                 <input type="file" accept=".doc,.docx,.pdf" class="file-input file-input-bordered file-input-primary" />
             </div>
             <br/>
-            <div class="submit">
+            <div class="mx-[500px] submit">
                 <!-- <input type="submit"> -->
                 <button class="btn btn-success">Check Plagiarism</button>
             </div>
         </div>
     </section>
     <section>
-        <div class="absolute text-3xl font-mono text-white px-36 py-8 top-[145%]">
+        <div class="absolute text-3xl font-mono text-white mx-96 py-40 top-[145%]">
             <label for="file">The Deteced Plagiarism Level is :</label>
-            <progress class="progress progress-warning h-4 w-96" value="40" max="100"></progress>
+            <progress class="progress progress-warning h-4 w-96 mx-24 my-1/6" value="40" max="100"></progress>
         </div>
     </section>
     <!-- <div id="footer" class="footer">
