@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plager</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.47.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 class="text-5xl font-mono m-10 dark:text-white">Plager</h1>
+      </div>
+      <div class="absolute top-0 right-0 m-10">
+        <button class="btn w-32 m-2 btn-accent rounded-full text-black">Sign in</button>
+        <button class="btn w-32 btn-accent rounded-full text-black">Sign up</button>
+      </div>
+    </header>
+
+    <section>
+      <div class="absolute mx-20 top-1/3 dark:text-white">
+        <h2 class="font-mono text-7xl text-center">
+            Plager: A Plagarism Checker for Students
+        </h2>
+        <p class="text-3xl py-4 font-extralight text-center">
+            Plager is a Plagarism Checker built for students who find it difficult
+            to pay for premium tools. Its a free plagarism check for the students,
+            by the students.
+
+            <br><br><br> lorem ipsum
+        </p>
+      </div>  
+    </section>
+    <section>
+        <div class="absolute my-10 w-full top-full">
+            <div class="text-input flex justify-center my-1/6">
+                <textarea class="textarea h-96 w-[75%] flex justify-center bg-slate-50 text-black textarea-bordered" placeholder="Paste Text Here"></textarea>
+            </div>
+            <br/>
+            <div class="flex justify-center my-1/6">
+                <input type="file" accept=".doc,.docx,.pdf" class="file-input file-input-bordered file-input-primary dark:text-white" />
+            </div>
+            <br/>
+            <div class="flex justify-center">
+                <!-- <input type="submit"> -->
+                <button class="btn btn-success">Check Plagiarism</button>
+            </div>
+
+            <div class="absolute text-3xl font-mono mx-36 py-10 top-[100%] dark:text-white">
+                <label for="file">The Deteced Plagiarism Level is :</label>
+                <progress class="progress progress-warning h-4 w-96 my-1/6" value="40" max="100"></progress>
+            </div>
+        </div>
+    </section>
+    <!-- <div id="footer" class="footer">
+        This is the footer
+    </div> -->
+  </body>
+</html>
